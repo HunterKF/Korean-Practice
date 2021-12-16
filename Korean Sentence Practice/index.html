@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Korean Sentence Practice</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+
+<body>
+    <!-- your content here... -->
+    <div class="wrapper">
+    <header>
+        <h1>Practice Korean</h1>
+    </header>
+    <main>
+        
+        <div class="button-bar">
+            <div class="korean-button tooltip">
+                <h2 id="vocabulary-word"></h2>
+                <span class="tooltiptext" id="word-tooltip-text">This is the definition of the word</span>
+            </div>    
+            <div class="korean-button tooltip" >
+                <h2 id="grammar-point"></h2>
+                <span class="tooltiptext">
+                    <div  id="grammar-tooltip-text">This is the definition of the grammar</div>
+                    <div id="grammar-ex">This is the grammar example.</div>
+                </span>
+            </div>
+        </div>
+    
+        <input  type="text" id="sentence-practice" onfocus="this.value=''" value="Start practicing!">
+        <div class="sentence-display" id="typed-sentences"></div>
+    
+    </main>
+    </div>
+  </body>
+  <script src="js/javascript.js"></script>
+  </html>
